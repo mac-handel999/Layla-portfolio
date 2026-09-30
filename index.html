@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LAYLA. — Content Strategist, Writer, Video Creator</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll progress line (desktop) -->
+  <div class="thread"><div class="thread-progress" id="threadProgress"></div></div>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">LAYLA<span>.</span></a>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☀️</button>
+        <a href="#contact" class="btn btn-primary">Work With Me</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+
+    <div class="mobile-panel" id="mobilePanel">
+      <div class="mobile-panel-inner">
+        <a class="mp-link" href="#about">About</a>
+        <a class="mp-link" href="#services">Services</a>
+        <a class="mp-link" href="#work">Work</a>
+        <a class="mp-link" href="#process">Process</a>
+        <a class="mp-link" href="#testimonials">Testimonials</a>
+        <a class="mp-link" href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-lilac">Work With Me →</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sticky mobile CTA -->
+  <div class="mobile-cta-bar">
+    <a href="mailto:themarketinglayla@gmail.com" class="btn btn-ghost">✉️ Email</a>
+    <a href="#contact" class="btn btn-lilac">Work With Me</a>
+  </div>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-bg"><div class="blob blob1"></div><div class="blob blob2"></div></div>
+
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Open for select brand partnerships</div>
+
+          <h1 class="hero-title">
+            <span class="line"><span>Content Strategist.</span></span>
+            <span class="line"><span>Writer.</span></span>
+            <span class="line"><span>Video Creator.</span></span>
+          </h1>
+
+          <p class="hero-sub">I help founders, startups and brands grow through content people actually want to consume — organic-first, audience-first, community-first.</p>
+
+          <div class="hero-position">
+            <span><b>Organic-first.</b></span><span><b>Audience-first.</b></span><span><b>Community-first.</b></span>
+          </div>
+
+          <div class="hero-ctas">
+            <a href="#work" class="btn btn-lilac">View My Work →</a>
+            <a href="#contact" class="btn btn-ghost">Work With Me</a>
+          </div>
+        </div>
+
+        <div class="hero-portrait">
+          <div class="portrait-glow" id="portraitGlow"></div>
+          <div class="portrait-frame">
+            <!-- Replace with your photo. The original inline base64 image was moved out to keep this file readable. -->
+            <img src="assets/layla-pfp.jpg" alt="Portrait of Layla">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <!-- Group 1 -->
+        <div class="marquee-item"><b>Content Strategy</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Ghostwriting</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Video Creation</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Community Building</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Organic Growth</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Consulting</b><span class="sep"></span></div>
+        <!-- Group 2 (duplicate, needed for the seamless loop) -->
+        <div class="marquee-item"><b>Content Strategy</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Ghostwriting</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Video Creation</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Community Building</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Organic Growth</b><span class="sep"></span></div>
+        <div class="marquee-item"><b>Consulting</b><span class="sep"></span></div>
+      </div>
+    </div>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">About</div>
+          <h2 class="section-title">Building trust through content, not just creating it.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-values reveal">
+            <div class="value-row">
+              <span class="value-num">01</span>
+              <div><b>Organic growth</b><p>I create content designed to earn attention naturally through relevance, storytelling, and consistency.</p></div>
+            </div>
+            <div class="value-row">
+              <span class="value-num">02</span>
+              <div><b>Strategic thinking</b><p>Every piece of content has a purpose — whether that's educating, building authority, increasing engagement, or growing a community.</p></div>
+            </div>
+            <div class="value-row">
+              <span class="value-num">03</span>
+              <div><b>Community first</b><p>I don't just build audiences; I cultivate communities that actively engage with ideas and conversations.</p></div>
+            </div>
+            <div class="value-row">
+              <span class="value-num">04</span>
+              <div><b>Consistency</b><p>Sustainable growth comes from showing up consistently. My portfolio reflects a commitment to creating quality content over time.</p></div>
+            </div>
+          </div>
+
+          <div class="about-copy reveal">
+            <p>I'm <b>Layla</b>, a content strategist, writer, and video creator passionate about helping brands tell stories that resonate with the right audience.</p>
+            <p>Over the years, I've published <b>300+ articles and threads</b>, created <b>30+ videos</b>, and built an engaged community of <b>1,500+ followers</b> across platforms through consistency, valuable insights, and authentic storytelling. My work regularly reaches <b>2,000+ organic views per piece</b>, proving that meaningful content doesn't need to rely on paid promotion to make an impact.</p>
+            <p>Beyond creating content, I enjoy building communities. I've organized <b>10 online and in-person events</b>, bringing creators, entrepreneurs, and curious minds together for conversations that extend beyond the timeline.</p>
+            <p>I believe the best content isn't measured only by impressions — it's measured by the conversations it starts, the trust it builds, and the actions it inspires. Whether it's a long-form article, a video series, a thought-provoking thread, or a content strategy for a growing brand, my goal is always the same: <b>create content that people remember, trust, and share.</b></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <div class="stats-band">
+      <div class="wrap">
+        <div class="kicker">Selected Results</div>
+        <div class="stats-grid">
+          <div class="stat"><div class="stat-num">300<span>+</span></div><div class="stat-label">Articles &amp; Threads Published</div></div>
+          <div class="stat"><div class="stat-num">30<span>+</span></div><div class="stat-label">Videos Created</div></div>
+          <div class="stat"><div class="stat-num">1500<span>+</span></div><div class="stat-label">Engaged Followers</div></div>
+          <div class="stat"><div class="stat-num">2000<span>+</span></div><div class="stat-label">Avg. Organic Views</div></div>
+          <div class="stat"><div class="stat-num">10<span>+</span></div><div class="stat-label">Community Events Organized</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Services</div>
+          <h2 class="section-title">Where I can help</h2>
+          <p class="section-desc">From a single ghostwritten thread to a full content system — pick a starting point, or let's design the whole engine together.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">✍️</div>
+            <h3>Content Writing</h3>
+            <p>Long-form content that informs, educates, and builds authority. Blog posts, thought leadership articles, newsletters, or website copy — written with clarity, strategy, and your audience in mind.</p>
+            <div class="service-tags"><span class="tag">Blog Articles</span><span class="tag">Thought Leadership</span><span class="tag">Website Copy</span><span class="tag">Newsletters</span><span class="tag">Editorial Content</span><span class="tag">SEO-Friendly Articles</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">👻</div>
+            <h3>Ghostwriting</h3>
+            <p>Helping founders and professionals share ideas without sacrificing their voice — turning expertise into content that sounds authentic and connects with the right audience.</p>
+            <div class="service-tags"><span class="tag">LinkedIn Posts</span><span class="tag">X Threads</span><span class="tag">Articles</span><span class="tag">Newsletters</span><span class="tag">Founder Content</span><span class="tag">Personal Branding</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">🧭</div>
+            <h3>Content Strategy</h3>
+            <p>Publishing content without a strategy is just posting. I develop content systems that align with your goals, audience, and brand positioning to create sustainable organic growth.</p>
+            <div class="service-tags"><span class="tag">Content Calendars</span><span class="tag">Audience Research</span><span class="tag">Content Pillars</span><span class="tag">Editorial Strategy</span><span class="tag">Distribution Planning</span><span class="tag">Growth Recommendations</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">🎬</div>
+            <h3>Video Content</h3>
+            <p>Short-form videos designed to educate, entertain, and build trust. From scripting to editing, content optimized for today's fast-moving social platforms.</p>
+            <div class="service-tags"><span class="tag">Short-form Videos</span><span class="tag">Talking Head Videos</span><span class="tag">Educational Content</span><span class="tag">Scriptwriting</span><span class="tag">Video Editing</span><span class="tag">Social Video Optimization</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">👥</div>
+            <h3>Community Building</h3>
+            <p>Communities grow when people feel seen, heard, and connected. I help brands and creators foster meaningful engagement through thoughtful conversations, events, and interactive experiences.</p>
+            <div class="service-tags"><span class="tag">Community Strategy</span><span class="tag">Online Events</span><span class="tag">In-Person Events</span><span class="tag">Community Engagement</span><span class="tag">Audience Activation</span><span class="tag">Moderation Support</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">💡</div>
+            <h3>Consulting</h3>
+            <p>Sometimes all you need is clarity. I work with creators, founders, and brands to identify what's working, what's not, and how to create content that supports long-term growth.</p>
+            <div class="service-tags"><span class="tag">Early-Stage Startups</span><span class="tag">Personal Brands</span><span class="tag">Content Teams</span><span class="tag">Founders</span><span class="tag">Independent Creators</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WORK =====
+         To show a tweet in a card, put its numeric ID in data-tweet-id
+         (from x.com/i/status/ID). Leave it empty for a plain gradient cover. -->
+    <section id="work">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Featured Work</div>
+          <h2 class="section-title">Selected case studies</h2>
+          <p class="section-desc">Real results across articles, video, Medium, and Substack — the formats that actually move an audience.</p>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card reveal">
+            <div class="work-cover" data-tweet-id=""><span class="work-cat">Video Content</span></div>
+            <div class="work-body">
+              <h3>Prediction Platform Launch</h3>
+              <p>A fast-paced explainer video built to turn curious scrollers into sign-ups for a new prediction platform — clarity first, hype second.</p>
+              <div class="work-metrics"><div><b>7.1x</b><span>Traffic lift</span></div><div><b>Short-form</b><span>Format</span></div></div>
+              <a href="#" class="work-link">View case study →</a>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-cover" data-tweet-id=""><span class="work-cat">Article</span></div>
+            <div class="work-body">
+              <h3>The Thread That Doubled Reach</h3>
+              <p>A ghostwritten thread that reframed a familiar topic in the founder's own voice, doubling reach with zero paid spend behind it.</p>
+              <div class="work-metrics"><div><b>2x</b><span>Reach growth</span></div><div><b>Organic</b><span>Distribution</span></div></div>
+              <a href="#" class="work-link">View case study →</a>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-cover" data-tweet-id=""><span class="work-cat">Medium</span></div>
+            <div class="work-body">
+              <h3>A SaaS Story Worth Sharing</h3>
+              <p>A long-form Medium piece that turned a routine product update into a story people wanted to pass along, tripling traffic to the page.</p>
+              <div class="work-metrics"><div><b>3x</b><span>Traffic lift</span></div><div><b>Medium</b><span>Platform</span></div></div>
+              <a href="#" class="work-link">View case study →</a>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-cover" data-tweet-id=""><span class="work-cat">Video Content</span></div>
+            <div class="work-body">
+              <h3>A Story Worth Watching</h3>
+              <p>A storytelling-led video that led with narrative over polish, published straight to Twitter, and pulled viewers in for the full watch.</p>
+              <div class="work-metrics"><div><b>Storytelling</b><span>Approach</span></div><div><b>Twitter</b><span>Published on</span></div></div>
+              <a href="#" class="work-link">View case study →</a>
+            </div>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-cover" data-tweet-id=""><span class="work-cat">Article</span></div>
+            <div class="work-body">
+              <h3>One Thread, 3K New Readers</h3>
+              <p>A single, well-timed thread that turned into a genuine traffic driver — pulling in new readers who stuck around for what came next.</p>
+              <div class="work-metrics"><div><b>3k</b><span>New readers</span></div><div><b>Organic</b><span>Traffic</span></div></div>
+              <a href="#" class="work-link">View case study →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section id="process" class="alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Process</div>
+          <h2 class="section-title">How a project actually runs</h2>
+          <p class="section-desc">Five stages, repeated every cycle — the order matters, because each stage feeds the next.</p>
+        </div>
+
+        <div class="process-list">
+          <div class="process-row reveal"><span class="process-num">01</span><div><h3>Discover</h3><p>Every project starts with understanding your goals, audience, and brand. Before creating anything, I take the time to learn what success looks like for you.</p></div></div>
+          <div class="process-row reveal"><span class="process-num">02</span><div><h3>Research</h3><p>I analyze your audience, industry, competitors, and content opportunities to uncover ideas that have the greatest potential to resonate.</p></div></div>
+          <div class="process-row reveal"><span class="process-num">03</span><div><h3>Strategy</h3><p>Using those insights, I develop a clear content direction — defining the topics, formats, messaging, and distribution plan that support your objectives.</p></div></div>
+          <div class="process-row reveal"><span class="process-num">04</span><div><h3>Create</h3><p>This is where ideas come to life. Whether it's an article, video, thread, or campaign, every piece is crafted with purpose, clarity, and quality.</p></div></div>
+          <div class="process-row reveal"><span class="process-num">05</span><div><h3>Publish &amp; Optimize</h3><p>Content doesn't end when it's published. I monitor performance, gather insights, and refine future content to improve engagement and long-term results.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section id="testimonials">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Testimonials</div>
+          <h2 class="section-title">What clients say</h2>
+        </div>
+
+        <div class="testi-track">
+          <div class="testi-card"><p class="testi-quote">“Layla didn't just write content — she built a system our whole team could run without her in the room.”</p><div class="testi-person"><div class="testi-avatar"></div><div><b>Devin</b><span>CEO, Gamegptofficial</span></div></div></div>
+          <div class="testi-card"><p class="testi-quote">“Our organic traffic grew faster in three months than it had in the previous two years combined.”</p><div class="testi-person"><div class="testi-avatar"></div><div><b>Novanoodle</b><span>CEO, UFOCash</span></div></div></div>
+          <div class="testi-card"><p class="testi-quote">“She has a rare ability to sound exactly like the founder, even on topics I hadn't explained yet.”</p><div class="testi-person"><div class="testi-avatar"></div><div><b>Catman</b><span>Founder, Cat Man Base</span></div></div></div>
+          <div class="testi-card"><p class="testi-quote">“The community she built around our product is still one of our best acquisition channels today.”</p><div class="testi-person"><div class="testi-avatar"></div><div><b>Kelvin</b><span>Project Lead</span></div></div></div>
+        </div>
+
+        <div class="testi-nav">
+          <button type="button" aria-label="Previous testimonial">←</button>
+          <button type="button" aria-label="Next testimonial">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MEDIA KIT + RESUME ===== -->
+    <section id="kit" class="alt">
+      <div class="wrap">
+        <div class="kit-grid">
+          <div class="kit-card reveal">
+            <div>
+              <div class="kit-icon">📄</div>
+              <h3>Media Kit</h3>
+              <p>Audience breakdown, engagement rates, past brand partnerships, and content formats — everything a partnerships team needs in one PDF.</p>
+            </div>
+            <a href="assets/media-kit.pdf" class="btn btn-ghost" download>Download Media Kit ↓</a>
+          </div>
+          <div class="kit-card reveal">
+            <div>
+              <div class="kit-icon">🗂️</div>
+              <h3>Resume</h3>
+              <p>Full work history, tools, and a summary of the content systems I've built for startups and brands over the last few years.</p>
+            </div>
+            <a href="assets/resume.pdf" class="btn btn-ghost" download>Download Resume ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-info reveal">
+          <div class="kicker">Contact</div>
+          <h2 class="section-title">Let’s Create Content That Builds Trust.</h2>
+          <p class="section-desc">If you're looking for a content partner who values strategy as much as creativity, I'd love to hear about your project. Whether you're building a brand, growing a community, or sharing an idea with the world, let's create something meaningful together.</p>
+          <div class="contact-link-row"><span>✉️</span><b>themarketinglayla@gmail.com</b></div>
+          <div class="contact-link-row"><span>📍</span><b>Remote — working with teams worldwide</b></div>
+        </div>
+
+        <form id="contactForm" class="reveal" novalidate>
+          <div class="form-row">
+            <div class="field"><label for="name">Name</label><input id="name" type="text" placeholder="Jane Founder" required><span class="field-err">Please enter your name.</span></div>
+            <div class="field"><label for="email">Email</label><input id="email" type="email" placeholder="jane@company.com" required><span class="field-err">Please enter a valid email.</span></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="company">Company</label><input id="company" type="text" placeholder="Company (optional)"></div>
+            <div class="field">
+              <label for="budget">Budget</label>
+              <select id="budget">
+                <option value="">Select a range</option>
+                <option>Under $500</option>
+                <option>$500 – $1,500</option>
+                <option>$1,500 – $5,000</option>
+                <option>$5,000+</option>
+              </select>
+            </div>
+          </div>
+          <div class="field"><label for="message">Message</label><textarea id="message" placeholder="What are you trying to grow?" required></textarea><span class="field-err">Tell me a little about your project.</span></div>
+          <div class="submit-row">
+            <button type="submit" class="btn btn-lilac">Send Message</button>
+            <span class="success-msg">✓ Message sent — I'll reply soon.</span>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <a href="#top" class="logo">LAYLA<span>.</span></a>
+          <nav class="footer-nav">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+            <a href="#process">Process</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div class="socials">
+          <a class="social-btn" href="mailto:themarketinglayla@gmail.com" aria-label="Email">✉️</a>
+          <a class="social-btn" href="#" aria-label="X (Twitter)">𝕏</a>
+          <a class="social-btn" href="#" aria-label="Medium">M</a>
+          <a class="social-btn" href="#" aria-label="Substack">S</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Layla. All rights reserved.</span>
+        <span>Designed &amp; built with care.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
